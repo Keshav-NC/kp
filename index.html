@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Be My Valentine!</title>
+    <link
+      rel="shortcut icon"
+      href="https://media.tenor.com/-CcQBGHDypoAAAAi/tkthao219-bubududu.gif"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section class="flex items-center justify-center h-screen w-full">
+      <div
+        class="container flex flex-col justify-center h-4/5 w-1/2 rounded-sm text-center bg-[#ffc5e6] shadow-lg font-semibold p-4 relative"
+      >
+        <div class="text-[#ff257e]">
+          <h1 class="text-5xl">Will you be my</h1>
+          <h1 class="font-bold text-8xl text-[#d60000]">Valentine?</h1>
+        </div>
+        <div class="flex justify-center items-center h-1/2">
+          <img
+            id="boy"
+            src="https://media.tenor.com/SKVyZ47LhkYAAAAi/rose-propose.gif"
+            alt="boy"
+            class="w-1/3"
+          />
+        </div>
+        <div
+          class="text-3xl text-[#ffc5e6] mt-4 flex justify-evenly items-center"
+        >
+          <a href="/iloveyou.html" class="absolute left-10">
+            <button
+              id="yes"
+              class="shadow-xl p-4 w-40 bg-[#ff257e] border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300 rounded-sm"
+            >
+              Yes
+            </button></a
+          >
+          <button
+            id="no"
+            class="shadow-xl p-4 w-40 bg-[#ff257e] border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300 rounded-sm transition-all absolute right-10 cursor-"
+          >
+            No
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
