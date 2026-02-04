@@ -13,13 +13,22 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <section class="flex items-center justify-center h-screen w-full">
+    <section
+      id="section-container"
+      class="flex items-center justify-center h-screen w-full relative overflow-hidden"
+    >
       <div
-        class="container flex flex-col justify-center h-4/5 w-1/2 rounded-sm text-center bg-[#ffc5e6] shadow-lg font-semibold p-4 relative"
+        class="container flex flex-col justify-center h-4/5 w-1/2 rounded-sm text-center bg-[#ffc5e6] shadow-xl font-semibold p-4 relative overflow-hidden"
       >
         <div class="text-[#ff257e]">
-          <h1 class="text-5xl">Will you be my</h1>
-          <h1 class="font-bold text-8xl text-[#d60000]">Valentine?</h1>
+          <h1 class="text-5xl animate-[slide-down_0.6s_ease-out_forwards] p-1">
+            Will you be my
+          </h1>
+          <h1
+            class="font-bold text-8xl text-[#d60000] animate-[slide-left_0.8s_ease-out_forwards] p-1"
+          >
+            Valentine?
+          </h1>
         </div>
         <div class="flex justify-center items-center h-1/2">
           <img
@@ -30,23 +39,40 @@
           />
         </div>
         <div
-          class="text-3xl text-[#ffc5e6] mt-4 flex justify-evenly items-center"
+          class="text-3xl text-[#ffc5e6] mt-4 flex justify-evenly items-center w-full"
         >
           <a href="iloveyou.html" class="absolute left-10">
             <button
               id="yes"
-              class="shadow-xl p-4 w-40 bg-[#ff257e] border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300 rounded-sm"
+              class="animate-[slide-up_0.6s_ease-out_forwards] shadow-xl p-4 w-40 bg-[#ff257e] border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300 rounded-sm"
             >
               Yes
             </button></a
           >
           <button
             id="no"
-            class="shadow-xl p-4 w-40 bg-[#ff257e] border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300 rounded-sm transition-all absolute right-10 cursor-"
+            class="animate-[slide-up_0.8s_ease-out_forwards] shadow-xl p-4 w-40 bg-[#ff257e] border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300 rounded-sm transition-all absolute right-10"
           >
             No
           </button>
         </div>
+      </div>
+      <div>
+        <!-- <img
+          class="absolute left-0 bottom-0 w-full -z-1"
+          src="https://media.tenor.com/K_g-XPVAeRkAAAAj/hart-heart.gif"
+          alt=""
+        /> -->
+        <img
+          class="absolute -top-20 -left-20 w-100 animate-[slide-right_0.6s_ease-out_forwards]"
+          src="./images/f4.png"
+          alt=""
+        />
+        <img
+          class="absolute -bottom-10 -right-10 w-100 animate-[slide-up_0.8s_ease-out_forwards]"
+          src="./images/f3.png"
+          alt=""
+        />
       </div>
     </section>
     <script src="./script.js"></script>
