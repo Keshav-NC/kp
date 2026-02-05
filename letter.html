@@ -32,14 +32,14 @@
         alt=""
       />
       <div
-        class="container flex justify-center items-center w-2/4 rounded-sm text-center font-semibold p-4 relative overflow-hidden relative"
+        class="container flex justify-center items-center w-2/4 rounded-sm text-center font-semibold p-4 relative"
       >
         <div
           class="absolute top-31 animate-[slide-down_0.5s_ease-in-out_forwards] h-full"
         >
           <h1 class="text-4xl text-[#d60000] underline">A note for YOU</h1>
         </div>
-        <div class="absolute text-3xl text-[#ff257e]">
+        <div class="absolute text-3xl text-[#ff257e] overflow-hidden">
           <h1 class="animate-[slide-right_0.6s_ease-in-out_forwards]">
             "I did'nt just ask you to be mine
           </h1>
@@ -63,7 +63,7 @@
           </h1>
         </div>
         <img
-          class="object-cover w-3/6 shadow-xl rounded-sm"
+          class="object-cover w-3/6 shadow-xl rounded-sm overflow-hidden"
           src="./images/letter.jpg"
           alt=""
         />
@@ -78,8 +78,13 @@
       <div
         class="absolute right-20 [perspective:1000px] group cursor-pointer w-1/4 text-center animate-[slide-left_0.6s_ease-out_forwards]"
       >
+        <!-- <img
+          class="translate-x-110 absolute transition duration-300 group-hover:translate-x-0 top-10 object-contain w-1/2 rounded-sm shadow-xl"
+          src="./images/p1.jpg"
+          alt=""
+        /> -->
         <img
-          class="w-30 absolute bottom-25 right-30 animate-[slide-left_0.8s_ease-out_forwards]"
+          class="w-30 absolute bottom-25 right-30 animate-[slide-left_0.8s_ease-out_forwards] group-hover:opacity-0 transition duration-300"
           src="https://media.tenor.com/17qWL5uHxnUAAAAj/fullframenl-fullframe.gif"
           alt=""
         />
@@ -94,6 +99,24 @@
             You'll always be special to me!
           </h1>
         </div>
+      </div>
+      <div class="group">
+        <img
+          class="w-30 absolute left-90 bottom-35 animate-[slide-up_0.6s_ease-out_forwards]"
+          src="https://media.tenor.com/17qWL5uHxnUAAAAj/fullframenl-fullframe.gif"
+          alt=""
+        />
+        <a href="letter2.html"
+          ><img
+            class="w-30 absolute bottom-3 left-90 cursor-pointer animate-[slide-up_0.6s_ease-out_forwards]"
+            src="https://media.tenor.com/b3DL4aDB5gcAAAAj/heart.gif"
+            alt=""
+        /></a>
+        <h1
+          class="text-5xl text-[#d60000] font-semibold absolute left-90 bottom-55 opacity-0 group-hover:opacity-100 transition duration-750"
+        >
+          Forever!
+        </h1>
       </div>
     </section>
   </body>
