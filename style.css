@@ -5,7 +5,6 @@
 
 body {
   background-color: #ff257e;
-  cursor: url("./images/heart.png"), auto;
 }
 
 @keyframes slide-right {

@@ -18,40 +18,61 @@
       class="flex items-center justify-center h-screen w-full relative overflow-hidden"
     >
       <div
-        class="container flex flex-col justify-center h-4/5 w-1/2 rounded-sm text-center bg-[#ffc5e6] shadow-xl font-semibold p-4 relative overflow-hidden"
+        class="container flex flex-col justify-center xl:h-4/5 xl:w-1/2 h-1/2 w-3/4 rounded-sm text-center bg-[#ffc5e6] shadow-xl font-semibold xl:p-4 relative overflow-hidden"
       >
         <div class="text-[#ff257e]">
-          <h1 class="text-5xl animate-[slide-down_0.6s_ease-out_forwards] p-1">
+          <h1
+            class="xl:text-5xl text-3xl animate-[slide-down_0.6s_ease-out_forwards] p-1"
+          >
             Will you be my
           </h1>
           <h1
-            class="font-bold text-8xl text-[#d60000] animate-[slide-left_0.8s_ease-out_forwards] p-1"
+            class="font-bold xl:text-8xl text-4xl text-[#d60000] animate-[slide-left_0.8s_ease-out_forwards] p-1"
           >
             Valentine?
           </h1>
         </div>
-        <div class="flex justify-center items-center h-1/2">
+        <div class="flex justify-center items-center xl:h-1/2">
           <img
             id="boy"
             src="https://media.tenor.com/SKVyZ47LhkYAAAAi/rose-propose.gif"
             alt="boy"
-            class="w-1/3"
+            class="xl:w-1/3 w-2/3"
           />
         </div>
-        <div
-          class="text-3xl text-[#ffc5e6] mt-4 flex justify-evenly items-center w-full"
+        <!-- <div
+          class="xl:text-3xl text-xl text-[#ffc5e6] xl:mt-4 flex justify-evenly items-center w-full"
         >
-          <a href="iloveyou.html" class="absolute left-10">
+          <a href="iloveyou.html" class="absolute xl:left-10 left-5 bottom-5">
             <button
               id="yes"
-              class="animate-[slide-up_0.6s_ease-out_forwards] shadow-xl p-4 w-40 bg-[#ff257e] border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300 rounded-sm"
+              class="animate-[slide-up_0.6s_ease-out_forwards] shadow-xl xl:p-4 xl:w-40 w-20 bg-[#ff257e] border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300 rounded-sm h-10"
             >
               Yes
             </button></a
           >
           <button
             id="no"
-            class="animate-[slide-up_0.8s_ease-out_forwards] shadow-xl p-4 w-40 bg-[#ff257e] border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300 rounded-sm transition-all absolute right-10"
+            class="animate-[slide-up_0.8s_ease-out_forwards] shadow-xl xl:p-4 xl:w-40 w-20 bg-[#ff257e] border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300 rounded-sm transition-all absolute xl:right-10 right-5 bottom-5 text-xl leading-none whitespace-nowrap h-10"
+          >
+            No
+          </button>
+        </div> -->
+        <div
+          class="xl:text-3xl text-xl text-[#ffc5e6] xl:mt-4 flex justify-evenly items-center w-full"
+        >
+          <a href="iloveyou.html" class="absolute xl:left-10 left-5 bottom-5">
+            <button
+              id="yes"
+              class="animate-[slide-up_0.6s_ease-out_forwards] h-10 xl:h-15 px-6 inline-flex items-center justify-center text-sm xl:text-3xl leading-none whitespace-nowrap bg-[#ff257e] shadow-xl rounded-sm border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300"
+            >
+              Yes
+            </button>
+          </a>
+
+          <button
+            id="no"
+            class="animate-[slide-up_0.8s_ease-out_forwards] h-10 xl:h-15 px-6 inline-flex items-center justify-center text-sm xl:text-3xl leading-none whitespace-nowrap bg-[#ff257e] shadow-xl rounded-sm border border-transparent hover:bg-transparent hover:border-[#ff257e] hover:text-[#ff257e] transition-all duration-300 absolute xl:right-10 right-5 bottom-5 p-2"
           >
             No
           </button>
@@ -64,12 +85,12 @@
           alt=""
         /> -->
         <img
-          class="absolute -top-20 -left-20 w-100 animate-[slide-right_0.6s_ease-out_forwards]"
+          class="absolute xl:-top-20 xl:-left-20 xl:w-100 -top-10 -left-10 w-50 animate-[slide-right_0.6s_ease-out_forwards]"
           src="./images/f4.png"
           alt=""
         />
         <img
-          class="absolute -bottom-10 -right-10 w-100 animate-[slide-up_0.8s_ease-out_forwards]"
+          class="absolute xl:-bottom-10 xl:-right-10 xl:w-100 w-50 -bottom-4 -right-5 animate-[slide-up_0.8s_ease-out_forwards]"
           src="./images/f3.png"
           alt=""
         />

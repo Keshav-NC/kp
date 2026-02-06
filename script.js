@@ -30,7 +30,7 @@ no.addEventListener("mouseover", () => {
   ++level;
   if (level >= 10) {
     no.style.display = "none";
-    yes.style.width = "44vw";
+    yes.classList.add("xl:w-[44vw]", "w-[55vw]");
     const img = document.createElement("img");
     console.log(img);
     img.src = "https://media.tenor.com/hMrjwfIKGYsAAAAi/iklog.gif";
@@ -40,6 +40,8 @@ no.addEventListener("mouseover", () => {
       "left-10",
       "bottom-0",
       "animate-[slide-up_0.8s_ease-out_forwards]",
+      "xl:w-[15vw]",
+      "w-[30vw]",
     );
     sectionContainer.appendChild(img);
     return;
