@@ -17,6 +17,28 @@ const messages = [
   "Some choices are made with care 💝",
 ];
 
+const marryMeBtn = document.querySelector("#marryme");
+const yeah = document.getElementById("yeah");
+const ring = document.getElementById("ring");
+const yeahImg = document.getElementById("yeah-img");
+
+yeah.addEventListener("click", () => {
+  console.log("Clicked");
+  ring.classList.add("opacity-0");
+  yeahImg.classList.remove("opacity-0");
+  yeahImg.classList.add("opacity-100");
+});
+
+marryMeBtn.addEventListener("click", () => {
+  ring.classList.remove("bottom-1");
+  ring.classList.add(
+    "-bottom-30",
+    "animate-[slide-down_0.6s_ease-in-out_forwards]",
+  );
+  ring.classList.remove("-z-20");
+  ring.classList.add("z-20");
+});
+
 let level = 1;
 
 yes.addEventListener("mouseover", () => {
